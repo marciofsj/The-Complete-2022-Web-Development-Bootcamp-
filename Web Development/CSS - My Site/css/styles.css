@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto; 
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+.foto {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.fotoskill {
+    width: 150px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bot-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.mid {
+
+}
+
+.bot{
+
+}
