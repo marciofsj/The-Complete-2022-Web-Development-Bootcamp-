@@ -2,6 +2,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #40514e;
 }
 
 h1 {
@@ -17,6 +18,7 @@ h2 {
     font-weight: normal;
     color: #66BFBF;
     line-height: 2;
+    padding-bottom: 10px;
 }
 
 h3 {
@@ -26,6 +28,19 @@ h3 {
 
 a {
     color: #11999E;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+hr {
+    border: 10px dotted #EAF6F6;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+p {
+    line-height: 2;
 }
 
 .foto {
@@ -40,12 +55,12 @@ a {
 .top-cloud {
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 40px;
 }
 
 .bot-cloud {
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }
 
@@ -56,9 +71,75 @@ a {
 }
 
 .mid {
-
+    margin: 100px 0;
 }
 
 .bot{
+    background-color: #66BFBF;
+    margin-top: 100px;
+    padding: 40px;
+}
 
+.skill-row {
+    width: 50%; 
+    margin: 100px auto;
+    text-align: left;
+}
+
+.imghtml {
+    width: 25%;
+    float: left;
+    padding: 30px;
+}
+
+.imgcss {
+    width: 25%;
+    float: right;
+    padding: 30px;
+}
+
+.imgjs {
+    width: 25%;
+    float: left;
+    padding: 30px;
+}
+
+.imgpy {
+    width: 25%;
+    float: right;
+    padding: 30px;
+}
+
+.profile {
+    width: 50%;
+    margin: auto;
+}
+
+.btn {
+    border-radius: 8px;
+    padding: 10px;
+    background-image: linear-gradient(
+        to bottom left,
+        #11cdd4, 
+        #11999e
+    );
+    color: #EAF6F6;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-image: linear-gradient(
+        to bottom left,
+        #30e3cb, 
+        #2bc4ad
+    )
+}
+
+.contact-me {
+    width: 50%;
+    margin: auto;
+}
+
+.copy {
+    color: #EAF6F6;
 }
